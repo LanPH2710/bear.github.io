@@ -1,0 +1,113 @@
+body {
+    overflow-x: hidden;
+    background: linear-gradient(green,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-container {
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end; /*can chinh theo chieu doc-row*/
+}
+
+.header-title{
+    display: flex;
+    justify-content: center;/* can chinh theo chieu ngang-column*/
+}
+
+.header-title h1{
+    color:rgb(53, 240, 47);                                                             /*char color*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;          /*font type*/
+    font-variant: small-caps;                                                       /*font kind*/
+    font-size: 500%;                                                                /*font size*/
+    text-align: center;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+.menu{
+    position: sticky;
+    top: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(green, darkgreen);
+    height: 50px;
+}
+.bg-primary{
+    background: linear-gradient(green, darkgreen);
+}
+.menu li.active{
+    background-color: #16ed77;
+}
+
+.airblade h2{
+    text-align: center;
+    color: #38e046;
+}
+
+.img-sub{
+    height: 165px;
+    padding: 5px 0;
+}
+
+.best-seller-title{
+    text-align: center;
+    color: #1bf45c;
+}
+
+.motor-image{
+    width: 360px;
+    height: 342px;
+}
+
+.motor-title{
+    color: #D7B9A9
+}
+
+.info-title{
+    text-align: center;
+    color: #26e74f;
+}
+
+.footer{
+    color: white;
+    background-color: #0ec353;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 426px){/*responsive*/
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu {
+        justify-content: flex-end;
+        height: max-content;
+    }
+
+    .navbar-header{
+        width: 100vw;
+    }
+    .img-sub{
+        width: 690px;
+        height: max-content;
+    }
+}
+.menu{
+
+    position: sticky;
+    top: 0;
+}

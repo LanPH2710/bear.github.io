@@ -1,0 +1,43 @@
+h1{
+    font-variant: small-caps;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    color:rgb(11, 211, 64);
+}
+span{
+    text-align: center;
+    height: 100px;
+    width: 25%;
+    background-color: rgb(11, 211, 64);
+    display: block;
+    float: left;
+    line-height: 90px;
+    text-align: center;
+    font-size: larger;
+}
+body{
+    background-color: blue;
+}
+p{
+    font-variant: small-caps;
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.menu{
+    background-color: green;
+    margin-left: 0px;
+}
+.button{
+    display: flex;
+    align-items: center;
+}
